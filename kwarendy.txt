@@ -1,0 +1,4 @@
+1.SELECT nazwaPliku, podpis FROM zdjecia ORDER BY podpis ASC;
+2. SELECT cel, dataWyjazdu FROM wycieczki WHERE dostepna = 0;
+3. SELECT wycieczki.cel, wycieczki.cena, zdjecia.nazwaPliku FROM wycieczki, zdjecia WHERE wycieczki.cena > 1300;
+4. ALTER TABLE wycieczki DROP COLUMN dataWyjazdu;
